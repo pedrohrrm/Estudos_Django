@@ -1,5 +1,5 @@
 from django.urls import path
-from recipes.views import home, contato, sobre
+from recipes.views import home
 
 # por enquanto eu vou criar uma função e passar uma view
 
@@ -7,6 +7,5 @@ from recipes.views import home, contato, sobre
 
 urlpatterns = [
     path('', home),
-    path('contato/', contato),
-    path('sobre/', sobre),
+
 ]
